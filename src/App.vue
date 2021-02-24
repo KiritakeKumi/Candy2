@@ -221,7 +221,7 @@ export default {
 				setTimeout(() => {
 					console.log("您浏览本网站使用的显卡是：" + gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL));
 					console.log("如果这是您的全新高性能独显，请留言给我更新显卡列表");
-					this.$Notify("提示", "浏览器没有检测到独显，已关闭毛玻璃特效", "background-color:#fb7299");
+					this.$Notify("提示", "浏览器没有检测到独显，为保证访问体验已关闭毛玻璃特效", "background-color:#fb7299");
 				}, 100);
 			}
 		},
